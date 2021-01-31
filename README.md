@@ -1,7 +1,7 @@
 
 # Nullstack Upload Input
 
-Simple input that uploads files.
+Simple input that uploads files to public/uploads.
 
 ## Install
 
@@ -42,7 +42,7 @@ import {UploadInput} from 'nullstack-upload-input';
 
 class Application extends Nullstack {
 
-  link = '44775999001';
+  link = '';
 
   render() {
     return (
